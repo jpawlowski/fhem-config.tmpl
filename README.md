@@ -1,6 +1,6 @@
 ## Install your FHEM Configuration Git
 
-In the current directory, enter the following command:
+In your FHEM directory, enter the following command:
 
 ````
 git clone https://github.com/jpawlowski/fhem-config.tmpl tmp; mv tmp/* tmp/.git* .; rmdir tmp
