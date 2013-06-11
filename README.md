@@ -14,3 +14,7 @@ Afterwards you may clone your configuration to every local computer, change your
 
 NOTE: Changes you made locally on your FHEM server will silently be overwritten. If you would like to keep changes you saved from within FHEM you need to run `fhem.git.sh push` to commit those changes and push them to the remote repository.
 At the moment this script does not take care about merging conflicts so you should not make changes to your configuration on 2 different places. Otherwise you will need to manually resolve the merge conflict.
+
+### Security Info
+The two files fhem.git.cfg and db.conf will initially be downloaded to your FHEM server but changed you do to them will be kept local and not pushed back to the remote repository.
+This will ensure privacy of your Git and database credentials.
